@@ -1,0 +1,67 @@
+﻿@model EcommerceApp.viewModel.RegisterVM
+
+<div class="row">
+    <div >
+        <form asp-action="UpdateUser">
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger">@Html.Raw(TempData["Error"])</div>
+            } <div class="row">
+                <div class="form-group col-md-6">
+                    <label asp-for="UserName" class="control-label"></label>
+                    <input asp-for="UserName" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+          </div>
+          <div class="row">
+                <div class="form-group col-md-6">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="ConfirmPassword" class="control-label"></label>
+                    <input asp-for="ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                  
+                </div>
+          </div>
+          <div class="row">
+                <div class="form-group col-md-6">
+                    <label asp-for="FullName" class="control-label"></label>
+                    <input asp-for="FullName" class="form-control" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="BirthDate" class="control-label"></label>
+                    <input asp-for="BirthDate" class="form-control" />
+                    <span asp-validation-for="BirthDate" class="text-danger"></span>
+                </div>
+          </div>
+           <div class="row">
+                <div class="form-group col-md-6">
+                <label asp-for="Gender" class="control-label"></label>
+                <input asp-for="Gender" class="form-control" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+                <div class="form-group col-md-6">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+           </div>
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

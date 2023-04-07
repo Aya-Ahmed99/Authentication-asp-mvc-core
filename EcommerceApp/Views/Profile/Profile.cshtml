@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+}
+
+<h1 class="text-center">Profile</h1>
+
+<div class="container mt-5 pt-5">
+    <div class="row">
+        <div class="col-md-4  mr-5 text-end">
+            <img src="https://fakeimg.pl/100x100/">
+            <ul class="list-unstyled">
+                <li><a onclick="GetData()">Personal Data</a></li>
+                <li><a onclick="GetUpdate()"> Update Profile</a></li>
+                <li ><a asp-controller="Account" asp-action="Logout">Logout</a></li>
+            </ul>
+        </div>
+        <div id="personalData" class="col-md-6"></div>
+    </div>
+</div>
+
+@section Scripts
+    {
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(function () {
+            GetData();
+        });
+
+        function GetData() {
+            $.ajax({
+                url: "/Profile/PersonalData",
+                success: function (result) {
+                    $("#personalData").html(result);
+                }
+            });
+        }
+
+          function GetUpdate() {
+            $.ajax({
+                url: "/Profile/UpdateUser",
+                success: function (result) {
+                    $("#personalData").html(result);
+                }
+            });
+        }
+    </script>
+}
