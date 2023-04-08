@@ -3,10 +3,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace EcommerceApp.Migrations
 {
     /// <inheritdoc />
-    public partial class initialIdentityMigration : Migration
+    public partial class initailmigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -178,6 +180,25 @@ namespace EcommerceApp.Migrations
                         principalTable: "AspNetUsers",
                         principalColumn: "Id");
                 });
+
+            migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[,]
+                {
+                    { "f2c3f0d1-77e5-4fc2-bb59-b6b811380be6", null, "Customer", null },
+                    { "f2c3f0d1-77e5-4fc2-bb59-b6b811380be7", null, "Admin", null }
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUsers",
+                columns: new[] { "Id", "AccessFailedCount", "Address", "BirthDate", "ConcurrencyStamp", "Email", "EmailConfirmed", "FullName", "Gender", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                values: new object[] { "1fb53d92-67a5-4d20-a724-0079f0cf4222", 0, "cairo", "28-10-1999", "b26dd636-dcfb-49a1-a6a0-dd3fe81747ac", "ayaahmed199910@gmail.com", true, "Admin", "Female", false, null, "AYAAHMED199910@GMAIL.COM", "ADMIN", "AQAAAAIAAYagAAAAEIsxa2firybLcrmKl0e1mBY727Exfnxt0N5bapWZJZI+no1FXUPtLpHxTBmNeLwjlw==", null, false, "9376a6a0-2509-4007-b02b-f8cf3821e383", false, "Admin" });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUserRoles",
+                columns: new[] { "RoleId", "UserId" },
+                values: new object[] { "f2c3f0d1-77e5-4fc2-bb59-b6b811380be7", "1fb53d92-67a5-4d20-a724-0079f0cf4222" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

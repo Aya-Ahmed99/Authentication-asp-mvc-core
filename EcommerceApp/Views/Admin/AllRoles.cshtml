@@ -1,0 +1,41 @@
+﻿@model IEnumerable<EcommerceApp.viewModel.RoleVM>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RoleName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoleName)
+            </td>
+            <td>
+                    <a href="#" onclick="GetUpdate('@item.Id')"> Edit</a> |
+                    @Html.ActionLink("Delete", "DeleteRole", new {id=item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        function GetUpdate(roleId) {
+            event.preventDefault();
+            console.log(roleId)
+            $.ajax({
+                url: "/Admin/EditRole/"+roleId,
+                success: function (result) {
+                    $("#roleData1").html(result);
+                }
+            });
+        }
+    </script>

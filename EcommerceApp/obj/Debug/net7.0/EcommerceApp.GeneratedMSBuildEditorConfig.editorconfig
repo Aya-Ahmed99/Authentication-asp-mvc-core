@@ -9,81 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EcommerceApp
 build_property.RootNamespace = EcommerceApp
-build_property.ProjectDir = F:\bfci\iti 9 month\Projects\EcommerceMVC\EcommerceApp\EcommerceApp\
+build_property.ProjectDir = F:\bfci\iti 9 month\Projects\p\Authentication-asp-mvc-core\EcommerceApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\bfci\iti 9 month\Projects\EcommerceMVC\EcommerceApp\EcommerceApp
+build_property.MSBuildProjectDirectory = F:\bfci\iti 9 month\Projects\p\Authentication-asp-mvc-core\EcommerceApp
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Account/AccessDenied.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Account/ConfirmEmailSent.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Account/ConfirmEmailSent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRW1haWxTZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Account/ForgotPassword.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Account/ForgotPasswordConfirmation.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Account/Login.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Account/Register.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Account/ResetPassword.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Home/Index.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Admin/AllRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWxsUm9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Admin/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Admin/NewRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTmV3Um9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Home/Privacy.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Profile/PersonalData.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Profile/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Profile/Profile.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Profile/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Profile/UpdateUser.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Profile/UpdateUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxVcGRhdGVVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Role/NewRole.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxOZXdSb2xlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Shared/Error.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/_ViewImports.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/_ViewStart.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/bfci/iti 9 month/Projects/EcommerceMVC/EcommerceApp/EcommerceApp/Views/Shared/_Layout.cshtml]
+[F:/bfci/iti 9 month/Projects/p/Authentication-asp-mvc-core/EcommerceApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-odsm6luzny

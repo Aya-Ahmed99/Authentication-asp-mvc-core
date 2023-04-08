@@ -43,11 +43,13 @@ namespace EcommerceApp.Controllers
                 IdentityResult result = await userManager.CreateAsync(userModel, userModel.PasswordHash);
                 if (result.Succeeded)
                 {
+
                     await userManager.AddToRoleAsync(userModel, "Customer");
+
 
                     var callbackUrl = Url.Action("ConfirmEmail", "Account",
                         new { userId = userModel.Id, token = await userManager.GenerateEmailConfirmationTokenAsync(userModel) }, protocol: HttpContext.Request.Scheme);
-                    
+
                     var subject = "Confirm your email";
                     var body = $"Please confirm your email address by clicking this link: <a href='{callbackUrl}'>link</a>";
 

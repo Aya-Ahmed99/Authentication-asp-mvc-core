@@ -11173,11 +11173,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\bfci\\iti 9 month\\Projects\\EcommerceMVC\\EcommerceApp\\EcommerceApp\\EcommerceApp.csproj",
+      "projectUniqueName": "F:\\bfci\\iti 9 month\\Projects\\p\\Authentication-asp-mvc-core\\EcommerceApp\\EcommerceApp.csproj",
       "projectName": "EcommerceApp",
-      "projectPath": "F:\\bfci\\iti 9 month\\Projects\\EcommerceMVC\\EcommerceApp\\EcommerceApp\\EcommerceApp.csproj",
+      "projectPath": "F:\\bfci\\iti 9 month\\Projects\\p\\Authentication-asp-mvc-core\\EcommerceApp\\EcommerceApp.csproj",
       "packagesPath": "C:\\Users\\Aya Ahmed\\.nuget\\packages\\",
-      "outputPath": "F:\\bfci\\iti 9 month\\Projects\\EcommerceMVC\\EcommerceApp\\EcommerceApp\\obj\\",
+      "outputPath": "F:\\bfci\\iti 9 month\\Projects\\p\\Authentication-asp-mvc-core\\EcommerceApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aya Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",

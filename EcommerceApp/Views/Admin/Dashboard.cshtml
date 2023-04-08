@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+
+<h1 class="text-center">Dashboard</h1>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <ul class="list-unstyled">
+                <li><a onclick="GetData()">Role Management</a></li>
+            </ul>
+        </div>
+        <div class="col-md-10" id="roleData"></div>
+    </div>
+</div>
+
+
+@section Scripts
+    {
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(function () {
+            GetData();
+        });
+
+        function GetData() {
+            $.ajax({
+                url: "/Admin/Index",
+                success: function (result) {
+                    $("#roleData").html(result);
+                }
+            });
+        }
+    </script>
+}
+

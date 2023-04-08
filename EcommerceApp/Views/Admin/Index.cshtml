@@ -1,0 +1,40 @@
+﻿
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 text-end me-3" >
+            <ul class="list-unstyled">
+                <li><a onclick="GetRoles()">All Roles</a></li>
+                <li><a onclick="AddRole()">Add Role</a></li>
+            </ul>
+        </div>
+        <div class="col-md-8" id="roleData1"></div>
+
+    </div>
+</div>
+
+
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(function () {
+            GetRoles();
+        });
+
+        function GetRoles() {
+            $.ajax({
+                url: "/Admin/AllRoles",
+                success: function (result) {
+                    $("#roleData1").html(result);
+                }
+            });
+        }
+
+        function AddRole() {
+            $.ajax({
+                url: "/Admin/NewRole",
+                success: function (result) {
+                    $("#roleData1").html(result);
+                }
+            });
+        }
+    </script>

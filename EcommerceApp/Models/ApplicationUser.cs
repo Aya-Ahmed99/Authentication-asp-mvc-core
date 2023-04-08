@@ -13,5 +13,6 @@ namespace EcommerceApp.Models
 
         public string Address { get; set; }
         public virtual ICollection<Order> Orders { get; set; }
+
     }
 }

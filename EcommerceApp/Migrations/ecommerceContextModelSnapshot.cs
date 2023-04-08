@@ -101,6 +101,28 @@ namespace EcommerceApp.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "1fb53d92-67a5-4d20-a724-0079f0cf4222",
+                            AccessFailedCount = 0,
+                            Address = "cairo",
+                            BirthDate = "28-10-1999",
+                            ConcurrencyStamp = "b26dd636-dcfb-49a1-a6a0-dd3fe81747ac",
+                            Email = "ayaahmed199910@gmail.com",
+                            EmailConfirmed = true,
+                            FullName = "Admin",
+                            Gender = "Female",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "AYAAHMED199910@GMAIL.COM",
+                            NormalizedUserName = "ADMIN",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIsxa2firybLcrmKl0e1mBY727Exfnxt0N5bapWZJZI+no1FXUPtLpHxTBmNeLwjlw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "9376a6a0-2509-4007-b02b-f8cf3821e383",
+                            TwoFactorEnabled = false,
+                            UserName = "Admin"
+                        });
                 });
 
             modelBuilder.Entity("EcommerceApp.Models.Order", b =>
@@ -149,6 +171,18 @@ namespace EcommerceApp.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "f2c3f0d1-77e5-4fc2-bb59-b6b811380be7",
+                            Name = "Admin"
+                        },
+                        new
+                        {
+                            Id = "f2c3f0d1-77e5-4fc2-bb59-b6b811380be6",
+                            Name = "Customer"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -236,6 +270,13 @@ namespace EcommerceApp.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "1fb53d92-67a5-4d20-a724-0079f0cf4222",
+                            RoleId = "f2c3f0d1-77e5-4fc2-bb59-b6b811380be7"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>

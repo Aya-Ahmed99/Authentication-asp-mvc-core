@@ -33,17 +33,17 @@ namespace EcommerceApp.Controllers
             {
                 UserName = userData.UserName,
                 FullName = userData.FullName,
-                Email   = userData.Email,
-                Gender  = userData.Gender,  
-                Address= userData.Address,  
-                BirthDate= userData.BirthDate,
+                Email = userData.Email,
+                Gender = userData.Gender,
+                Address = userData.Address,
+                BirthDate = userData.BirthDate,
             };
 
             return PartialView(userModel);
         }
 
         [HttpGet]
-        public async Task< IActionResult> UpdateUser()
+        public async Task<IActionResult> UpdateUser()
         {
             var model = await userManager.GetUserAsync(User);
 
